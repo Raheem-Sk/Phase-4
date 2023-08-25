@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<head>
+
+</head>
+<body>
+    Enter Number : 
+    <input id="num" type="text">
+    <button type="button" onclick="tabel()">SUBMIT</button>
+     <p id="aa">Table is 
+        :
+     </p><br>
+     <script>
+function tabel(){
+var num = parseInt(document.getElementById("num").value);
+var element;
+var tabelhtml = "<table>"
+
+    for(var i=1;i<=10;i++){
+        element += num + " "
+    }
+
+
+
+tabelhtml = "</table>"
+}
+
+     </script>
+</body>
